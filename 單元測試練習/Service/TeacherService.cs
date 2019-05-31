@@ -44,6 +44,7 @@ namespace UnitTestLab1.Service
             //     new Teacher { Name="T4",Age=41,Hour=50 ,Type=TeacherType.外聘 ,CheckResult=QualificationsResult.NotYetChecked},
             //     new Teacher { Name="T5",Age=31,Hour=81 ,Type=TeacherType.外聘 ,CheckResult=QualificationsResult.NotYetChecked}
             //};
+
             var teachers = _teacherRepos.SelectTeachers();
 
             foreach (var teacher in teachers)
